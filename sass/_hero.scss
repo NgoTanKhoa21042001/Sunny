@@ -1,0 +1,77 @@
+.hero {
+  margin-bottom: 272px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    width: 100%;
+  }
+  &-heading {
+    font-size: 64px;
+    line-height: 125%;
+    margin-bottom: 74px;
+  }
+  &-caption {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-bottom: 48px;
+    color: var(--gray-darkest);
+    position: relative;
+    padding-bottom: 21px;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 32px;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: var(--gray-darkest);
+    }
+  }
+  &-form {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  &-image {
+    transform: translateX(88px);
+  }
+}
+//  dành cho desktop
+@media screen and (min-width: 1280px) {
+}
+
+// Tablet
+@media screen and (max-width: 1024px) {
+  .hero {
+    margin-bottom: 100px;
+    &-container {
+      flex-direction: column;
+      gap: 50px 0;
+    }
+    &-image {
+      // width: 100%;
+      transform: translateX(0);
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    margin-bottom: 70px;
+    &-heading {
+      font-size: 2.2rem;
+    }
+    &-form {
+      grid-template-columns: 1fr;
+    }
+    &-image {
+      width: 100%;
+      // transform: translateX(0);
+    }
+  }
+}

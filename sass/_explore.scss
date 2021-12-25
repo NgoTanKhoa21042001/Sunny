@@ -1,0 +1,44 @@
+.explore {
+  margin-bottom: 292px;
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 50px;
+  }
+  &-image {
+    transform: translateX(-50px);
+  }
+  &-content {
+    max-width: 481px;
+  }
+  &-heading {
+  }
+  &-desc {
+    max-width: 450px;
+    margin: 20px 0 33px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .explore {
+    margin-bottom: 105px;
+    &-container {
+      flex-direction: column-reverse;
+      gap: 50px 0;
+    }
+    &-content {
+      min-width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .explore {
+    margin-bottom: 40px;
+    &-image {
+      width: 100%;
+      transform: translateX(0);
+    }
+  }
+}

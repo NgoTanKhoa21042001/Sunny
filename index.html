@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunny</title>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <link rel="stylesheet" href="./dist/css/app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300;700&family=Playfair+Display:wght@700&display=swap"
+  rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="header-main">
+          <img class="header-logo" src="img/logo.png" alt="">
+          <label for="header-mobile-input">
+            <i class="fas fa-bars menu-toggle"></i>
+          </label>
+          <input type="checkbox" hidden="true" name="" class="header__input" id="header-mobile-input">
+          <label for="header-mobile-input" class="header-overlay"></label>
+            <!-- END MOBILE MENU -->
+          <ul class="menu">
+            <label for="header-mobile-input">
+              <i class="fas fa-times menu-close"></i>
+            </label>
+            <li class="menu-item">
+              <a href="" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Destinations</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">About</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Partner</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="btn btn--secondary">Login</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="btn btn--primary">Register</a>
+            </li>
+          </ul>
+          <!-- MOBILE MENU -->
+        </div>
+      </header>
+      <!-- END HEADER -->
+      <!-- HERO -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-container">
+              <div class="hero-content">
+                <div class="heading hero-heading">Explore and
+                  Travel</div>
+                <div class="hero-caption">Holiday finder</div>
+                <div class="hero-form">
+                  <div class="dropdown">
+                    <div class="dropdown-select">
+                      <span class="dropdown-value">Location</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-list">
+                      <div class="dropdown-item">title</div>
+                      <div class="dropdown-item">title</div>
+                      <div class="dropdown-item">title</div>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <div class="dropdown-select">
+                      <span class="dropdown-value">Activity</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-list">
+                      <div class="dropdown-item">title</div>
+                      <div class="dropdown-item">title</div>
+                      <div class="dropdown-item">title</div>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <div class="dropdown-select">
+                      <span class="dropdown-value">Grade</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-list">
+                      <div class="dropdown-item">title</div>
+                      <div class="dropdown-item">title</div>
+                      <div class="dropdown-item">title</div>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <div class="dropdown-select">
+                      <span class="dropdown-value">Date</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-list">
+                      <div class="dropdown-item">title</div>
+                      <div class="dropdown-item">title</div>
+                      <div class="dropdown-item">title</div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#!" class="btn btn--primary">Explore</a>
+              </div>
+              <img src="./img/img1.png" alt="" class="hero-image">
+            </div>
+          </div>
+        </section>
+      <!-- END HERO -->
+      <!--  EXPLORE -->
+        <section class="explore">
+          <div class="container">
+            <div class="explore-container">
+              <img src="./img/img2.png" alt="" class="explore-image">
+              <div class="explore-content">
+                <div class="heading heading--small explore-heading">A new way to explore the world </div>
+                <p class="explore text explore-desc">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
+                trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                <a href="#!" class="btn btn--primary">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- END EXPLORE -->
+      <!-- FEATURE -->
+        <section class="feature">
+          <div class="container">
+            <div class="feature-container">
+              <div class="feature-header">
+                <div class="heading heading--small">Featured destinations</div>
+                <a href="#!" class="viewall">
+                  View all 
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+              <div class="feature-list">
+                <div class="feature-item">
+                  <img srcset="./img/img3.png 2x" alt="" class="feature-img">
+                  <div class="feature-content">
+                    <div class="feature-name">Raja Ampat</div>
+                    <div class="feature-country">Indonesia</div>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <img srcset="./img/img4.png 2x" alt="" class="feature-img">
+                  <div class="feature-content">
+                    <div class="feature-name">Fanjingshan</div>
+                    <div class="feature-country">China</div>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <img srcset="./img/img5.png 2x" alt="" class="feature-img">
+                  <div class="feature-content">
+                    <div class="feature-name">Vevey</div>
+                    <div class="feature-country">Switzerland</div>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <img srcset="./img/img6.png 2x" alt="" class="feature-img">
+                  <div class="feature-content">
+                    <div class="feature-name">Skadar</div>
+                    <div class="feature-country">Montenegro</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- END FEATURE -->
+      <!-- GUILDE -->
+        <section class="guilde">
+          <div class="container">
+            <div class="guilde-container">
+              <div class="guilde-content">
+                <div class="heading heading--small">Guides by Thousand 
+                  Sunny
+                </div>
+                <div class="text guilde-desc">
+                  Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.
+                </div>
+                <a href="#!" class="btn btn--primary">Dowload</a>
+              </div>
+              <img src="./img/img7.png" alt="" class="guilde-img">
+            </div>
+          </div>
+        </section>
+      <!-- END GUILDE -->
+      <!-- Testimonial -->
+        <section class="testimonial">
+          <div class="container">
+            <div class="testimonial-main">
+              <h1 class="heading heading--small">Testimonials</h1>
+              <div class="testimonial-container">
+                <div class="testimonial-content">
+                  <a href="#!" class="testimonial-rate">
+                    <i class="fas fa-star testimonial-icon"></i>
+                    <i class="fas fa-star testimonial-icon"></i>
+                    <i class="fas fa-star testimonial-icon"></i>
+                    <i class="fas fa-star testimonial-icon"></i>
+                    <i class="fas fa-star testimonial-icon"></i>
+                  </a>
+                  <div class="text testimonial-desc">
+                    “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
+                  </div>
+                  <div class="testimonial-auth">
+                    <div class="testimonial-name">Edward Newgate</div>
+                    <div class="testimonial-job">Founder Circle</div>
+                  </div>
+                </div>
+                <img srcset="./img/img8.png" alt="" class="testimonial-img">
+                <a href = "#" class="testimonial-arrows">
+                  <i class="fas fa-chevron-left testimonial-arrow"></i>
+                  <i class="fas fa-chevron-right testimonial-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- END Testimonial -->
+      <!-- STORY -->
+        <section class="story">
+          <div class="container">
+            <div class="story-header">
+              <div class="heading heading--small">Trending stories</div>
+              <a href="#!" class="viewall">
+                View all 
+                <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+            <div class="story-list">
+              <div class="story-item">
+                <img srcset="./img/img9.png" alt="" class="story-image">
+                <div class="story-content">
+                  <div class="story-heading heading">The many benefits of  
+                    taking a healing holiday</div>
+                  <div class="text story-desc">
+                    ‘Helaing holidays’ are on the rise 
+                    tohelp maximise your health and happines...
+                  </div>
+                  <a href="#" class="story-footer">
+                    Read more
+                  </a>
+                </div>
+              </div>
+              <div class="story-item">
+                <img srcset="./img/img10.png" alt="" class="story-image">
+                <div class="story-content">
+                  <div class="story-heading heading">The best Kyoto restaurant
+                    to try Japanese food</div>
+                  <div class="text story-desc">
+                    From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                    to visit...
+                  </div>
+                  <a href="#" class="story-footer">
+                    Read more
+                  </a>
+                </div>
+              </div>
+              <div class="story-item">
+                <img srcset="./img/img11.png" alt="" class="story-image">
+                <div class="story-content">
+                  <div class="story-heading heading">Skip Chichen Itza and head
+                    to this remote Yucatan</div>
+                  <div class="text story-desc">
+                    It’s remote and challenging to get,
+                    but braving the jungle and exploring
+                    these ruins without the...
+                  </div>
+                  <a href="#" class="story-footer">
+                    Read more
+                  </a>
+                </div>
+              </div>
+              <div class="story-item">
+                <img srcset="./img/img12.png" alt="" class="story-image">
+                <div class="story-content">
+                  <div class="story-heading heading">Surf’s up at these beginner
+                    spots around the world</div>
+                  <div class="text story-desc">
+                    If learning to surf has in on your to-
+                    do list for a while, the good news
+                    is: it’s never too late...
+                  </div>
+                  <a href="#" class="story-footer">
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- END STORY -->
+    </div>
+    <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-column">
+              <img src="./img/logo.png" alt="" class="footer-logo">
+              <div class="text footer-desc">
+                Plan and book your perfect trip with 
+                expert advice, travel tips destination
+                information from us
+              </div>
+              <div class="text copyright">
+                ©2020 Thousand Sunny. All rights reserved
+              </div>
+            </div>
+            <div class="footer-column">
+              <div class="footer-heading">Destinations</div>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Africa</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Antarctica</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Asia</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Europe</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">America</a>
+              </li>
+            </div>
+            <div class="footer-column">
+              <div class="footer-heading">Shop</div>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Destination Guides</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Pictorial & Gifts</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Special Offers</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Delivery Times</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">FAQs</a>
+              </li>
+            </div>
+            <div class="footer-column">
+              <div class="footer-heading">Interests</div>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Adventure Travel</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Art And Culture</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Wildlife And Nature</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Family Holidays</a>
+              </li>
+              <li class="footer-list">
+                <a href="#" class="footer-link">Food And Drink</a>
+              </li>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <a href="#" class="footer-social">
+              <i class="fab fa-twitter footer-icon"></i>
+              <i class="fab fa-facebook footer-icon"></i>
+              <i class="fab fa-instagram footer-icon"></i>
+              <i class="fab fa-youtube footer-icon"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    <!-- END FOOTER -->
+  </div>
+  <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./javascript/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.header {
+  padding-top: 45px;
+  padding-bottom: 71px;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo {
+    margin-left: 21px;
+  }
+  &-overlay {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: none;
+  }
+  &__input:checked ~ &-overlay {
+    display: block;
+  }
+  &__input:checked ~ .menu {
+    transform: translateX(0%);
+  }
+}
